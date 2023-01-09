@@ -1,6 +1,9 @@
 import java.util.List;
 
 public interface Page {
-    List<String> getAllPageReferencesOnPage();
     String getURL();
+    List<Page> getChildPages();
+    void setHierarchyLevel();
+    int getHierarchyLevel();
+    List<String> getPageMap();
 }
