@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5a3811-c747-4b74-a3a5-55be8c16786f" name="Changes" comment="Версия 2">
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SiteMapRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DocumentLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DocumentLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HTMLPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HTMLPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SiteMapBuildingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SiteMapBuildingTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672205724528</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Версия 2">
+      <created>1673290901467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673290901467</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
