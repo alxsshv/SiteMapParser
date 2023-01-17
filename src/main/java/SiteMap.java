@@ -3,9 +3,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.ForkJoinPool;
 
-public class SiteMapRunner {
+public class SiteMap {
     private static final String NEW_LINE = System.lineSeparator();
-    private StringBuilder siteMapBuilder = new StringBuilder();
+    private final StringBuilder siteMapBuilder = new StringBuilder();
     public void buildSiteMap(String url){
         System.out.println("Формируем карту сайта ...");
         Page site = new HTMLPage(url, 0);
@@ -25,6 +25,7 @@ public class SiteMapRunner {
             writer.close();
             System.out.println("Файл успешно записан");
         } catch (IOException e) {
+            System.out.println("При сохранении файла возникла ошибка");
             throw new RuntimeException(e);
         }
     }

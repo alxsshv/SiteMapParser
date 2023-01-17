@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5a3811-c747-4b74-a3a5-55be8c16786f" name="Changes" comment="Версия 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SiteMapRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DocumentLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DocumentLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HTMLPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HTMLPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SiteMapBuildingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SiteMapBuildingTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SiteMapRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SiteMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

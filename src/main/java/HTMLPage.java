@@ -7,14 +7,12 @@ import java.util.List;
 
 public class HTMLPage implements Page{
     private final String url;
-    private List<Page> childPages;
-    private List<String> pageMap;
-    private int hierarchyLevel;
+    private final List<Page> childPages;
+    private final int hierarchyLevel;
 
     public HTMLPage(String url, int level) {
         this.url = url;
         this.childPages = new ArrayList<>();
-        this.pageMap = new ArrayList<>();
         this.hierarchyLevel = level;
     }
 
@@ -27,7 +25,7 @@ public class HTMLPage implements Page{
     @Override
     public List<Page> getChildPages() {
             try {
-                Thread.sleep(10);
+                Thread.sleep(250);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -42,28 +40,7 @@ public class HTMLPage implements Page{
         }
 
 
-
-    public void setChildPages(List<Page> childPages) {
-        this.childPages = childPages;
-    }
-
-    public List<String> getPageMap() {
-        getChildPages(); // bad construction, findPageMapAndGetPageMap
-        for (Page childPage : childPages){
-            pageMap.add(" ".repeat(childPage.getHierarchyLevel()).concat(childPage.getURL()));
-        }
-        return pageMap;
-    }
-
-    public void setPageMap(List<String> pageMap) {
-        this.pageMap = pageMap;
-    }
-
     public int getHierarchyLevel() {
         return hierarchyLevel;
-    }
-    @Override
-    public void setHierarchyLevel() {
-        hierarchyLevel = hierarchyLevel;
     }
 }
